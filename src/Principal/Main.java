@@ -9,14 +9,14 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in) ;        //Creamos el objeto scanner
 		
-		
-		System.out.println("Ingrese el día: ");
+		System.out.println("Usted deberá ingresar una fecha con el siguiente formato: dd/mm/yyyy");
+		System.out.println("Ingrese el día (dd): ");
 		int dia = scanner.nextInt(); 
 		
-		System.out.println("Ingrese el mes: ");
+		System.out.println("Ingrese el mes (mm): ");
 		int mes = scanner.nextInt(); 
 		
-		System.out.println("Ingrese el año: ");
+		System.out.println("Ingrese el año (yyyy): ");
 		int anio = scanner.nextInt(); 
 		
 		boolean anioBisiesto = false ;
